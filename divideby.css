@@ -1,0 +1,162 @@
+/*styling.css*/
+html{
+    height: 100%;
+    /*background: radial-gradient(circle, #fff, #ccc);
+    background: -webkit-radial-gradient(circle, #fff, #ccc);   
+    background: -o-radial-gradient(circle, #fff, #ccc);   
+    background: -moz-radial-gradient(circle, #fff, #ccc);*/
+}
+
+body{
+    background-image: url(img/numbs.jpg);
+    font-family: sans-serif;
+
+}
+
+.gameTitle{
+    background-color:darkslategrey;
+    text-align: center;
+    height: 40px;
+    width: 550px;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #fff;
+    border-color: chartreuse;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+#container{
+    height: 430px;
+    width: 550px;
+    background-color:darkslategrey;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: chartreuse;
+    /*box-shadow: 0px 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+/*        box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]*/
+    position: relative;
+}
+
+#maincontainer{
+    margin: 70px auto;
+}
+
+#containerChoice{
+    height: 85px;
+    width: 156px;
+    float: left;
+    background-color:darkslategrey;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: chartreuse;
+    /*box-shadow: 0px 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+/*        box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]*/
+    position: relative;
+}
+
+
+
+
+#choicesGame{
+    width: 140px;
+    height: 80px;
+    margin: 5px auto;
+}
+
+.box{
+    width: 35px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 36px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px rgba(255, 69, 45, 0.5 );
+    -moz-box-shadow: 4px 4px rgba(255, 69, 45, 0.5);
+    -webkit-box-shadow: 4px 4px rgba(255, 69, 45, 0.5);
+    text-align: center;
+    font-size: 34px;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+.box:hover, #startreset:hover{
+/*    background-color: #9C89F6;*/
+/*    color: white;*/
+/*    box-shadow: 0px 4px #6b54d3;*/
+/*    -moz-box-shadow: 0px 4px #6b54d3;*/
+/*    -webkit-box-shadow: 0px 4px #6b54d3;*/
+}
+
+.box:active, #startreset:active{
+    background-color: limegreen;
+    color: white;
+    box-shadow: 0px 0px chartreuse ; 
+    -moz-box-shadow: 0px 0px chartreuse; 
+    -webkit-box-shadow: 0px 0px chartreuse; 
+    top: 4px;
+}
+#box4{
+    margin-right: 0;   
+}
+
+.boxGame{
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    float: left;
+    margin-right: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px rgba(255, 69, 45, 0.5 );
+    -moz-box-shadow: 4px 4px rgba(255, 69, 45, 0.5);
+    -webkit-box-shadow: 4px 4px rgba(255, 69, 45, 0.5);
+    text-align: center;
+    font-size: 60px;
+    line-height: 62px;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+.boxGame:hover, #startreset:hover{
+/*    background-color: #9C89F6;*/
+/*    color: white;*/
+/*    box-shadow: 0px 4px #6b54d3;*/
+/*    -moz-box-shadow: 0px 4px #6b54d3;*/
+/*    -webkit-box-shadow: 0px 4px #6b54d3;*/
+}
+
+.boxGame:active, #startreset:active{
+    background-color: limegreen;
+    color: white;
+    box-shadow: 0px 0px chartreuse ; 
+    -moz-box-shadow: 0px 0px chartreuse; 
+    -webkit-box-shadow: 0px 0px chartreuse; 
+    top: 4px;
+}
+
+
+
